@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 10;
-  background-color: var(--white);
+  background-color: var( --light-tertiary-color);
 }
 
 .navbar .navbar__content {
@@ -58,7 +58,7 @@
   .navbar .navbar__content .navbar__mobile.active .mobile__links {
     display: flex;
     flex-direction: column;
-    background-color: var(--white);
+    background-color: var( --light-tertiary-color);
     width: 100%;
     position: absolute;
     top: 98%;
