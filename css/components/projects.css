@@ -29,7 +29,10 @@
   min-width: 40rem;
   max-width: 47rem;
   height: auto;
+
 }
+
+
 
 .projects ul li .projects__info {
   max-width: 47rem;
@@ -42,6 +45,7 @@
 .projects ul li .projects__info a {
   font-weight: 500;
   text-decoration: underline;
+  padding-left: 50px;
 }
 
 @media only screen and (max-width: 768px) {
