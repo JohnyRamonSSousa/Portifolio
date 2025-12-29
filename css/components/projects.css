@@ -46,6 +46,11 @@
   font-weight: 500;
   text-decoration: underline;
   padding-left: 50px;
+  
+}
+
+.projects ul li .projects__info .title-icon{
+  width: 30px;
 }
 
 @media only screen and (max-width: 768px) {
