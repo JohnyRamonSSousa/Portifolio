@@ -32,6 +32,10 @@
   margin: 0 auto;
 }
 
+.skills .skills__content ul li .image-container .icon-title{
+  width: 5.5rem;
+}
+
 .skills .skills__content ul li h3 {
   font-size: 1.6rem;
   font-weight: 500;
