@@ -53,6 +53,11 @@
   width: 30px;
 }
 
+
+.projects ul li .projects__info .title-icon-woo{
+  width: 40px;
+}
+
 @media only screen and (max-width: 768px) {
   .projects ul li,
   .projects ul li.projects__reversed-list {
