@@ -4,7 +4,7 @@
  <title>Johny</title>
  <g class="layer">
   <title>Layer 1</title>
-  <text y="35.9" xml:space="preserve" x="9.5" transform="matrix(1 0 0 0.861631 0 -1.96431)" text-anchor="middle" stroke-width="0" id="svg_1" font-size="43" font-family="Serif" fill="#000000">J</text>
-  <text transform="matrix(1.05475 0 0 1.27711 -0.90961 0.459866)" stroke="null" y="16.2" xml:space="preserve" x="45.81603" text-anchor="middle" stroke-width="0" id="svg_2" font-size="20" font-family="Serif" fill="#000000">Ramon</text>
+  <text fill="#000000" font-family="Serif" font-size="43" id="svg_1" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 0.740278 0 -2.30855)" x="9.5" xml:space="preserve" y="35.9">J</text>
+  <text fill="#000000" font-family="Serif" font-size="20" id="svg_2" stroke-width="0" text-anchor="middle" x="46.20207" xml:space="preserve" y="15.51486" stroke="null" transform="matrix(0.971393 0 0 1.27711 0.471978 0.459866)">Ramon</text>
  </g>
 </svg>
