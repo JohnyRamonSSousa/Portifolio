@@ -99,8 +99,3 @@
     color: #fff;
 }
 
-/* Ajuste para o contraste no Dark Mode */
-[data-theme="dark"] .btn-secondary {
-    border-color: var(--accent-color);
-    color: #f1f1f1;
-}

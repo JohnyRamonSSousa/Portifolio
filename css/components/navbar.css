@@ -4,13 +4,19 @@
   left: 0;
   width: 100%;
   z-index: 10;
-  background-color: var(--white);
+  background-color: var(--light-tertiary-color);
 }
 
 .navbar .navbar__content {
   padding: 3rem 4rem 1rem;
   display: flex;
   justify-content: space-between;
+}
+
+.navbar .navbar__content a img{
+  width: 120px;
+  height: 60px;
+  
 }
 
 .navbar .navbar__content .navbar__links li {
@@ -58,7 +64,7 @@
   .navbar .navbar__content .navbar__mobile.active .mobile__links {
     display: flex;
     flex-direction: column;
-    background-color: var(--white);
+    background-color: var(--light-tertiary-color);
     width: 100%;
     position: absolute;
     top: 98%;
