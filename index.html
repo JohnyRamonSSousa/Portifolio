@@ -18,6 +18,19 @@
     />
   </head>
   <body>
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="https://wa.me/5524981755889?text=Olá,%20Johny!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       aria-label="Contato pelo WhatsApp">
+      <svg viewBox="0 0 32 32" class="whatsapp-icon">
+        <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.733 5.486 2.032 7.797l-2.032 7.203 7.42-1.945c2.235 1.139 4.76 1.745 7.42 1.745 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.135c-2.396 0-4.673-0.612-6.66-1.776l-0.479-0.279-4.407 1.156 1.183-4.195-0.312-0.501c-1.28-2.053-1.96-4.444-1.96-6.94 0-7.132 5.803-12.935 12.935-12.935s12.935 5.803 12.935 12.935-5.803 12.935-12.935 12.935zM22.511 19.389c-0.359-0.18-2.124-1.048-2.453-1.168s-0.569-0.18-0.809 0.18-0.928 1.168-1.138 1.407-0.419 0.269-0.779 0.090c-0.359-0.18-1.517-0.559-2.889-1.784-1.068-0.953-1.789-2.13-1.999-2.489s-0.022-0.554 0.158-0.733c0.161-0.161 0.359-0.419 0.539-0.629s0.24-0.359 0.359-0.599c0.12-0.24 0.060-0.449-0.030-0.629s-0.809-1.947-1.109-2.666c-0.292-0.7-0.593-0.606-0.809-0.617s-0.449-0.013-0.689-0.013c-0.24 0-0.629 0.090-0.958 0.449s-1.258 1.228-1.258 2.996c0 1.768 1.288 3.475 1.467 3.715s2.535 3.872 6.142 5.428c0.857 0.371 1.528 0.592 2.050 0.758 0.861 0.273 1.645 0.235 2.264 0.142 0.69-0.104 2.124-0.869 2.424-1.708s0.3-1.558 0.21-1.708c-0.090-0.15-0.33-0.24-0.689-0.419z"></path>
+      </svg>
+    </a>
+
+    <script src="scripts/index.js"></script>
+  </body>
     <!-- navbar -->
     <nav class="navbar">
       <div class="navbar__content max-width mb-0">
@@ -46,6 +59,7 @@
 
     <!-- header -->
     <header id="header" class="max-width">
+      
       <div class="header__left">
         <h1>Olá!</h1>
         <h1>Sou Johny Ramon <h1>
@@ -53,9 +67,16 @@
         <p>
           Desenvolvedor Web focado em aplicações responsivas e soluções escaláveis. Especialista em transformar desafios em produtos digitais que geram valor real para o usuário. Estou em constante evolução, buscando aprender novas tecnologias para expandir meu conhecimento e entregar resultados de alta qualidade.
         </p>
-        <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+        
+        <div class="header__btns" style="display: flex; gap:  1rem; margin-top: 2rem;">
+          <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+          <a href="mailto:johnyramon@gmail.com?subject=Contato%20via%20Portfólio&body=Olá%20Johny,%20gostaria%20de%20conversar%20sobre..." class="btn btn-secondary">
+            Enviar E-mail
+          </a>
+        </div>
       </div>
-      <div class="header__right">
+      </div>
+       <div class="header__right">
         <div class="header__image">
           <img src="assets/Johny Ramon.jpg" alt="Johny Ramon" class="lucas" />
           <img src="assets/abstract.svg" alt="background" class="background" />
@@ -312,8 +333,10 @@
           trabalhar juntos para torná-los realidade.
         </p>
         <div class="footer__contact mb-m">
-          <span class="mb-m">johnyramon@gmail.com</span>
-          <span>(24) 98175-5889</span>
+            <a href="mailto:johnyramon@gmail.com" class="footer__email-link">
+                <span class="mb-m">johnyramon@gmail.com</span>
+            </a>
+           
         </div>
         <ul class="mb-l">
           <li>
