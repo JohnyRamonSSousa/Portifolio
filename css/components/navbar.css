@@ -14,12 +14,6 @@
 }
 
 
-.navbar .navbar__content a img{
-  width: 100px;
-  height: 40px;
-  
-}
-
 .navbar .navbar__content .navbar__links li {
   display: inline-block;
 }
